@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header,
 .hero,
 footer {
@@ -29,22 +33,35 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 960px;
+    height: 240px;
+}
+
 button {
+    font-weight: bold;
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 32px;
 }
 
 .card-img {
-    width: 100px;
-    height: 100px;
-    border: #3882F6;
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
 }
 
 h1 {
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
+    margin: 0;
+    text-align: center;
+    margin: 42px 0;
 }
 
 .citation {
@@ -62,5 +79,95 @@ h1 {
 }
 
 header{
+    margin: 0;
+    padding: 18px 110px 100px 210px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.hero {
+    margin: 0;
+    padding: 18px 110px 150px 210px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 52px;
+    margin-bottom: 120px;
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    padding: 8px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    margin-left: 250px;
+    margin-right: 150px;
+}
+
+.citation {
+    padding: 120px 200px 100px 350px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: end;
+    margin-right: 46px;
+    margin-top: 8px;
+}
+
+.cta {
+    padding: 100px 110px 100px 210px;
+}
+
+.modal {
+    border-radius: 8px;
+    padding: 40px 110px 40px 110px;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+}
+
+.modal-cta {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modal-text,
+footer{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.modal-button{
+    border: 2px solid #E5E7EB;
+    padding: 4px 32px; 
+}
+
+footer {
+    padding: 35px;
+    text-align: center;
 }
