@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -11,6 +12,7 @@ footer {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 ul {
@@ -23,7 +25,7 @@ ul {
 .main-tittle {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 p,
@@ -80,7 +82,7 @@ h1 {
 
 header{
     margin: 0;
-    padding: 18px 110px 100px 210px;
+    padding: 18px 210px 100px 210px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +96,7 @@ header{
 
 .hero {
     margin: 0;
-    padding: 18px 110px 150px 210px;
+    padding: 18px 210px 150px 210px;
     display: flex;
     align-items: center;
     gap: 42px;
@@ -123,11 +125,11 @@ header{
 
 .main {
     margin-left: 250px;
-    margin-right: 150px;
+    margin-right: 250px;
 }
 
 .citation {
-    padding: 120px 200px 100px 350px;
+    padding: 120px 350px 100px 350px;
 }
 
 .author {
@@ -140,7 +142,7 @@ header{
 }
 
 .cta {
-    padding: 100px 110px 100px 210px;
+    padding: 100px 210px 100px 210px;
 }
 
 .modal {
